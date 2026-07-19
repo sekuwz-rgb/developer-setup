@@ -1,29 +1,26 @@
 # Developer Setup
 
-Mi entorno de desarrollo para Debian.
+A complete and reproducible development environment for Debian.
 
-## Objetivo
+## Overview
 
-Este repositorio contiene toda la configuración de mi entorno de desarrollo para poder reconstruir una instalación nueva de Debian de forma rápida y reproducible.
+This repository contains my personal development environment configuration, installation scripts, and documentation to quickly rebuild a fresh Debian installation.
 
-## Sistema
+## Environment
 
 - Debian 13
 - XFCE
-
-## Software instalado
-
-- Zen Browser
+- Zsh
 - WezTerm
+- Zen Browser
 - Visual Studio Code
-- Git
-- GitHub CLI
-- Docker + Docker Compose
+- Git & GitHub CLI
+- Python 3
+- Docker & Docker Compose
 - PostgreSQL
 - Node.js
-- Python
 
-## Estructura
+## Repository Structure
 
 ```
 developer-setup/
@@ -36,6 +33,22 @@ developer-setup/
 └── install.sh
 ```
 
-## Estado
+## Goal
 
-🚧 En construcción.
+The main goal of this project is to automate the setup of my development environment and keep all configuration files in a single place.
+
+Eventually, a fresh Debian installation should be reproducible by running a single installation script.
+
+## Roadmap
+
+- [x] Initial project structure
+- [ ] Package list
+- [ ] Installation scripts
+- [ ] Dotfiles
+- [ ] VS Code configuration
+- [ ] WezTerm configuration
+- [ ] Automated setup
+
+## License
+
+MIT
